@@ -48,7 +48,7 @@ def placeholder_in(event):
 def placeholder_out(event):
     if text_box.get() == "":
         text_box.insert(0, placeholder)  # Add back the placeholder text when focus is lost
-        text_box.config(fg='black')  # Change the text color to grey
+        text_box.config(fg='grey')  # Change the text color to grey
 
 # Define a function to convert user input text to Morse code and blink the LED accordingly
 def Morsecode():
